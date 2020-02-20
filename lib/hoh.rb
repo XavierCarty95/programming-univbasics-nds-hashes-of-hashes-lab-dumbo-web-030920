@@ -76,7 +76,16 @@ end
 hashes_of_hashes = {
     :label => "Xavier" ,
     :sub_label => "Carty" ,
-    :label => { :name => "Stephen"}
+    :label => { :name => "Stephen",
+      :father => {:name => "Vincent Carty",
+      :mother => {:name => "Genus Adelaide"}
+
+
+      }
+
+
+
+    }
 
 
 }
