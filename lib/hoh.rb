@@ -74,23 +74,23 @@ end
 
 
 hashes_of_hashes = {
-    label: "Xavier", 
+    label: "Xavier",
     sub_label: {
-      label: "England", 
+      label: "England",
       sub_label: {
         label: "Jamaica",
         sub_label: {
-          label: "Africa", 
+          label: "Africa",
           sub_label: {
-            label: "Ghana", 
+            label: "Ghana",
             sub_label: {
-              label: "South Africa", 
+              label: "South Africa",
                sub_label: {
-                 label: "Zimbabwe", 
+                 label: "Zimbabwe",
                  sub_label:{
-                   label: "Nigeria", 
+                   label: "Nigeria",
                    sub_label: {
-                     label: "Nothing", 
+                     label: "Nothing",
                      sub_label: {
                        label: nil
                      }
@@ -103,5 +103,5 @@ hashes_of_hashes = {
       }
     }
 
-  
+
 }
