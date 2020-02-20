@@ -74,21 +74,36 @@ end
 
 
 hashes_of_hashes = {
-    :label => "Xavier" ,
-    :sub_label => "Carty" ,
-    :role_label => { :name => "Stephen",
-      :father => {:name => "Vincent Carty",
-      :mother => {:name => "Genus Adelaide"}
-
-
+    :label => "Xavier",
+    sub_label: {
+      label: "England",
+      sub_label: {
+        label: "Jamaica",
+        sub_label: {
+          label: "Africa",
+          sub_label: {
+            label: "Ghana",
+            sub_label: {
+              label: "South Africa",
+               sub_label: {
+                 label: "Zimbabwe",
+                 sub_label:{
+                   label: "Nigeria",
+                   sub_label: {
+                     label: "Nothing",
+                     sub_label: {
+                       label: nil
+                     }
+                   }
+                 }
+               }
+            }
+          }
+        }
       }
-
-
-
     }
 
 
 }
 
-hashes_of_hashes[:role_label][:father][:name] = "Delroy"
-print hashes_of_hashes
+print hashes_of_hashes[:label][:sub_label][:label]
