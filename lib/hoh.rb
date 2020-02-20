@@ -74,7 +74,7 @@ end
 
 
 hashes_of_hashes = {
-    :label => "Xavier",
+    label: "Xavier",
     sub_label: {
       label: "England",
       sub_label: {
@@ -106,4 +106,4 @@ hashes_of_hashes = {
 
 }
 
-print hashes_of_hashes[:label][:sub_label][:label]
+print hashes_of_hashes[:sub_label][:label]
