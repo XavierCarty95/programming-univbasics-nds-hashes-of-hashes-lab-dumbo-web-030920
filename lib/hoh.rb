@@ -74,7 +74,9 @@ end
 
 
 hashes_of_hashes = {
-    :label => "Xavier"
+    :label => "Xavier" , 
+    :sub_label => "Carty" , 
+    :label => { :name => {"Stephen"} }
 
 
 }
