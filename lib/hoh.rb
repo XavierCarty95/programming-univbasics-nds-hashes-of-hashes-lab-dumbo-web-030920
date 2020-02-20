@@ -90,4 +90,4 @@ hashes_of_hashes = {
 
 }
 
-print hashes_of_hashes[:label][:name]
+print hashes_of_hashes[:label][:father][:name]
