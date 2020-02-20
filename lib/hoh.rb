@@ -74,34 +74,7 @@ end
 
 
 hashes_of_hashes = {
-    label: "Xavier",
-    sub_label: {
-      label: "England",
-      sub_label: {
-        label: "Jamaica",
-        sub_label: {
-          label: "Africa",
-          sub_label: {
-            label: "Ghana",
-            sub_label: {
-              label: "South Africa",
-               sub_label: {
-                 label: "Zimbabwe",
-                 sub_label:{
-                   label: "Nigeria",
-                   sub_label: {
-                     label: "Nothing",
-                     sub_label: {
-                       label: nil
-                     }
-                   }
-                 }
-               }
-            }
-          }
-        }
-      }
-    }
+    :label => { "Xavier" }
 
 
 }
