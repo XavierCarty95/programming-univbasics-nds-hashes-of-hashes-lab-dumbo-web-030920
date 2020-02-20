@@ -43,7 +43,7 @@ def naming_system
   # HoH all the way to Species!
 
   hey = {
-    label: "Kingdom ",
+    label: " Kingdom ",
      sub_category: {
         label: "Phylum",
         sub_category: {
@@ -70,3 +70,38 @@ def naming_system
   }
 
 end
+
+
+
+hashes_of_hashes = {
+    label: "Xavier", 
+    sub_label: {
+      label: "England", 
+      sub_label: {
+        label: "Jamaica",
+        sub_label: {
+          label: "Africa", 
+          sub_label: {
+            label: "Ghana", 
+            sub_label: {
+              label: "South Africa", 
+               sub_label: {
+                 label: "Zimbabwe", 
+                 sub_label:{
+                   label: "Nigeria", 
+                   sub_label: {
+                     label: "Nothing", 
+                     sub_label: {
+                       label: nil
+                     }
+                   }
+                 }
+               }
+            }
+          }
+        }
+      }
+    }
+
+  
+}
