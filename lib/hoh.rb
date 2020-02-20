@@ -106,5 +106,5 @@ hashes_of_hashes = {
 
 }
 
-love = hashes_of_hashes[:sub_label]
+love = hashes_of_hashes[:sub_label][:label]
 print love
