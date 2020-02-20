@@ -106,4 +106,4 @@ hashes_of_hashes = {
 
 }
 
-print hashes_of_hashes[:sub_label][:label]
+print hashes_of_hashes[:sub_label][:sub_label]
